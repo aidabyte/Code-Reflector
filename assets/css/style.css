@@ -87,22 +87,24 @@ p {
 }
 .mb-32 { 
     margin-bottom: 32px;
-}
+    color: #ffffff;
+}  
+
 
 .benefit-lead {
     /* margin-bottom: 32px; */
-    color: #ffffff;
-}
+    /*/* color: #ffffff; */
+} 
 
 .benefit-brand {
     /* margin-bottom: 32px; */
-    color: #ffffff;
+    /* color: #ffffff; */
 }
 
 .benefit-cost {
     /* margin-bottom: 32px; */
-    color: #ffffff;
-}
+    /* color: #ffffff; */
+} 
 
 .benefit-lead h3 {
     margin-bottom: 10px;
