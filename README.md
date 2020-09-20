@@ -123,8 +123,6 @@ Show examples of usage:
             </p>
         </div>
     </div>
-
-   
 </body>
 <div class="footer">
     <h2>Made with ❤️️ by Horiseon</h2>
@@ -133,6 +131,140 @@ Show examples of usage:
     </p>
 </div>
 </html>
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #d9dcd6;
+}
+
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* This selects the h1 title in the header */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;   
+}
+
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* These are the functioning elements of the page */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p {
+    font-size: 16px;
+}
+
+.h2 { margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.h3 {
+    margin-bottom: 10px;
+    text-align: center; 
+}
+
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* created this class to refer to the image */
+.content-img img {
+    max-height: 200px;
+}
+
+/* created another new class for reference */
+.mh-200{
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+    
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* created another new class for reference */
+.mb-32 { 
+    margin-bottom: 32px;
+    color: #ffffff;
+}  
+/* created another new class for reference */
+.benefit-img img{
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
+
 
 ## Status
 Project is: _in progress_ because I am still learning.
